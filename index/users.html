@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Come join the community!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="users.css">
+  <script type="text/javascript" src="signup.js"></script>
+
+  </head>
+  <body>
+      
+       <form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Post your complain!</h1>
+    <p>Please write your complain and choose the category.</p>
+    <hr>
+
+   
+    <label for="name">Complain: </label>
+      <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Enter your complain">
+    </textarea>
+    <br>
+    <label for="name">Category: </label>
+                <select name="cat">
+                    <optgroup label="Hostel">
+                      <option value="Electrical">Electrical issues</option>
+                      <option value="Plumbing">Plumbing issues</option>
+                      <option value="Warden">Warden/caretaker</option>
+                      <option value="Wifi">Wi-Fi</option>
+                    </optgroup>
+                    <optgroup label="Mess">
+                      <option value="food">Food</option>
+                      <option value="Hygiene">Hygiene</option>
+                    </optgroup>
+                    <optgroup label="Academics">
+                        <option value="Teacher">Professor</option>
+                        <option value="classroom">Classroom</option>
+                      </optgroup>
+                    
+                  </select> 
+                
+
+  
+
+    
+
+ 
+
+    <div class="clearfix">
+      <button type="button" class="postbtn">Post</button>
+      
+    </div>
+  </div>
+</form> 
